@@ -1,37 +1,164 @@
-## Welcome to GitHub Pages
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>module 2 solution</title>
+	<style>
 
-You can use the [editor on GitHub](https://github.com/mr123coder/coursera-test123/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+		h1{
+			text-align: center;
+			font-family: "Algerian","Times New Roman",serif;
+			color: #5C2353;
+		}
+		p{
+			
+			padding: 50px 10px 10px 10px;
+			border: 3px solid black;
+			margin: 20px;	
+			font-size: 20px;
+			overflow: hidden;
+			display: inline-block;
+			background-color: #C0C0C0;
+		}
+		#pos1,#pos2,#pos3
+		{
+			position: absolute;
+			
+			height: 20px;
+			width: 100px;
+			padding: 0px;
+			margin: 5px;
+			
+			font-size: 12px;	
+			text-align: center;
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+		}
 
-### Markdown
+		/*mobile device*/
+@media(max-width: 767px)
+{
+	
+	#p1{
+		width:300px;
+		height: 150px;
+	}
+	#p2{
+		width:300px;
+		height: 150px;
+	}
+	#p3{
+		width:300px;
+		height: 150px;
+	}
+	#pos1{
+		top: 85px;
+		left: 243px;
+		background-color: #FF80FF;
+	}
+	#pos2{
+		top: 340px;
+		left: 243px;
+		display: inline-grid;
+		background-color: #ABABD6;
+	}
+	#pos3{
+		left: 243px;
+		top: 598px;
+		background-color: #B0FFB0;
+	}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+}
 
-```markdown
-Syntax highlighted code block
+/*tablet device*/
+@media((min-width:991px) and (max-width:768px))
+{
+	#p1{
+		width:100px;
+		height: 100px;
+	}
+	#p2{
+		width:100px;
+		height: 100px;
+	}
+	#p3{
+		width:200px;
+		height:100px;
+	}
+	#pos1{
+		
+		top: 80px;
+		left: 300px;
+		background-color: #FF80FF;
+	}
+	#pos2{
+		 
+		top: 80px;
+		left: 500px;
+		
+		background-color: #ABABD6;
+	}
+	#pos3{
+		
+		left: 500px;
+		top: 150px;
+		background-color: #B0FFB0;
+	}
 
-# Header 1
-## Header 2
-### Header 3
+}
 
-- Bulleted
-- List
+/*desktop view*/
+@media(min-width: 992px)
+{
+	#p1{
+		width:250px;
+		height: 150px;
+	}
+	#p2{
+		width:250px;
+		height: 150px;
+	}
+	#p3{
+		width:250px;
+		height: 150px;
+	}
+	
+	#pos1{
+		
+		top: 85px;
+		left: 193px;
+		background-color: #FF80FF;
+	}
+	#pos2{
+		 
+		top: 85px;
+		left: 513px;
+		background-color: #ABABD6;
+	}
+	#pos3{
+		
+		left:832px;
+		top: 85px;
+		background-color: #B0FFB0;
+	}
 
-1. Numbered
-2. List
+}
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+	</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<section>
+	<p id="p1">chickenbfukejvhikhkjdsb fkhesjbjkdhfsehikf jawkfhliwjbkkbjwshujk mnbcgakwawdbcmj gfeggjgekuhf nwjgfjwbfmhbwjfb jjeshifjek</p>
+	<p id="p2">beefkuhfahiwoidoahkjffe wfghsbfjegfkbkaehifwjfhib fvjebhfbaehgf jwnfenfvmjaebvjkhfkwhbdmw wjhdgwjacf</p>
+	<p id="p3">sushighikdlawjdoawil.hcsbkdcw dhcascmjabhdkjfkebjf mnbfkuwhhwlimcbsjb jhdilwdjwnofwnawpw nd ncbikwjhfcab c/jbsnc hciawsh</p>
+	
+</section>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<p id="pos1">Chicken</p>
+	<p id="pos2">Beef</p>
+	<p id="pos3">Sushi</p>
 
-### Jekyll Themes
+</body>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mr123coder/coursera-test123/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
